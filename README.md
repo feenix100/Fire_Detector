@@ -70,12 +70,6 @@ Open:
 http://localhost:3000
 ```
 
-For development, this also works:
-
-```powershell
-npm run dev
-```
-
 ## How It Works
 
 The browser UI in `public/` reads the search controls and calls the backend route:
