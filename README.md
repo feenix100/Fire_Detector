@@ -23,7 +23,7 @@ The app supports searching by place name or latitude/longitude, selecting a sear
 - Node.js 18 or newer
 - A NASA FIRMS `MAP_KEY`
 
-Get a FIRMS key from NASA FIRMS:
+Get a free API key from NASA FIRMS:
 
 ```text
 https://firms.modaps.eosdis.nasa.gov/api/
@@ -34,13 +34,13 @@ https://firms.modaps.eosdis.nasa.gov/api/
 Clone the repository:
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/feenix100/Fire_Detector.git
 ```
 
 Move into the project folder:
 
 ```powershell
-cd YOUR_REPOSITORY_NAME
+cd Fire_Detector-main
 ```
 
 Install dependencies:
@@ -48,20 +48,13 @@ Install dependencies:
 ```powershell
 npm install
 ```
+To use the app you must add your own free API key from FIRMS.
 
-Create `APIKEY.txt` in the project root. Use either format:
-
-```text
-YOUR_FIRMS_MAP_KEY
-```
-
-or:
+Create `APIKEY.txt` in the project root. Inside the text file:
 
 ```text
 API_KEY=YOUR_FIRMS_MAP_KEY
 ```
-
-`APIKEY.txt` is ignored by Git and should not be committed.
 
 ## Run
 
